@@ -1,0 +1,495 @@
+#===========================================================
+# Reweight Card using block-index syntax
+# For model: SMEFTsim_U35_MwScheme_UFO
+# Process: pp > ZZ > l+l- νν~
+# Structure:
+#   - One "SM" weight (all 0)
+#   - +1 and -1 variations for each WC
+#===========================================================
+
+#-----------------------------------------------------------
+# Define weight groups with SMEFT block indices
+#-----------------------------------------------------------
+
+# 1) SM (all coefficients = 0)
+launch --rwgt_name=SM
+  set SMEFT 1 0.0  
+  set SMEFT 2 0.0  
+  set SMEFT 3 0.0  
+  set SMEFT 4 0.0  
+  set SMEFT 5 0.0  
+  set SMEFT 6 0.0  
+  set SMEFT 7 0.0  
+  set SMEFT 8 0.0  
+  set SMEFT 9 0.0  
+  set SMEFT 10 0.0 
+  set SMEFT 11 0.0 
+  set SMEFT 12 0.0 
+  set SMEFT 13 0.0 
+  set SMEFT 14 0.0 
+  set SMEFT 15 0.0 
+  set SMEFT 16 0.0 
+  set SMEFT 17 0.0 
+  set SMEFT 18 0.0 
+  set SMEFT 19 0.0 
+  set SMEFT 20 0.0 
+  set SMEFT 21 0.0
+  set SMEFT 22 0.0 
+  set SMEFT 23 0.0
+  set SMEFT 24 0.0
+  set SMEFT 25 0.0
+  set SMEFT 26 0.0
+  set SMEFT 27 0.0
+  set SMEFT 28 0.0
+  set SMEFT 29 0.0
+  set SMEFT 30 0.0
+  set SMEFT 31 0.0
+  set SMEFT 32 0.0
+  set SMEFT 33 0.0
+  set SMEFT 34 0.0
+  set SMEFT 35 0.0
+  set SMEFT 36 0.0
+  set SMEFT 37 0.0
+  set SMEFT 38 0.0
+  set SMEFT 39 0.0
+  set SMEFT 40 0.0
+  set SMEFT 41 0.0
+  set SMEFT 42 0.0 
+  set SMEFT 43 0.0
+  set SMEFT 44 0.0
+  set SMEFT 45 0.0
+  set SMEFT 46 0.0
+  set SMEFT 47 0.0
+  set SMEFT 48 0.0
+  set SMEFT 49 0.0
+  set SMEFT 50 0.0
+  set SMEFT 51 0.0
+  set SMEFT 52 0.0
+  set SMEFT 53 0.0
+  set SMEFT 54 0.0
+  set SMEFT 55 0.0
+  set SMEFT 56 0.0
+  set SMEFT 57 0.0
+  set SMEFT 58 0.0
+  set SMEFT 59 0.0
+  set SMEFT 60 0.0
+
+# operator cG (index 1)
+launch --rwgt_name=cG_1
+  set SMEFT 1 1.0
+
+launch --rwgt_name=cG_m1
+  set SMEFT 1 -1.0
+
+# operator cW (index 2)
+launch --rwgt_name=cW_1
+  set SMEFT 2 1.0
+
+launch --rwgt_name=cW_m1
+  set SMEFT 2 -1.0
+
+# operator cH (index 3)
+launch --rwgt_name=cH_1
+  set SMEFT 3 1.0
+
+launch --rwgt_name=cH_m1
+  set SMEFT 3 -1.0
+
+# operator cHbox (index 4)
+launch --rwgt_name=cHbox_1
+  set SMEFT 4 1.0
+
+launch --rwgt_name=cHbox_m1
+  set SMEFT 4 -1.0
+
+# operator cHDD (index 5)
+launch --rwgt_name=cHDD_1
+  set SMEFT 5 1.0
+
+launch --rwgt_name=cHDD_m1
+  set SMEFT 5 -1.0
+
+# operator cHG (index 6)
+launch --rwgt_name=cHG_1
+  set SMEFT 6 1.0
+
+launch --rwgt_name=cHG_m1
+  set SMEFT 6 -1.0
+
+# operator cHW (index 7)
+launch --rwgt_name=cHW_1
+  set SMEFT 7 1.0
+
+launch --rwgt_name=cHW_m1
+  set SMEFT 7 -1.0
+
+# operator cHB (index 8)
+launch --rwgt_name=cHB_1
+  set SMEFT 8 1.0
+
+launch --rwgt_name=cHB_m1
+  set SMEFT 8 -1.0
+
+# operator cHWB (index 9)
+launch --rwgt_name=cHWB_1
+  set SMEFT 9 1.0
+
+launch --rwgt_name=cHWB_m1
+  set SMEFT 9 -1.0
+
+# operator ceHRe (index 10)
+launch --rwgt_name=ceHRe_1
+  set SMEFT 10 1.0
+
+launch --rwgt_name=ceHRe_m1
+  set SMEFT 10 -1.0
+
+# operator cuHRe (index 11)
+launch --rwgt_name=cuHRe_1
+  set SMEFT 11 1.0
+
+launch --rwgt_name=cuHRe_m1
+  set SMEFT 11 -1.0
+
+# operator cdHRe (index 12)
+launch --rwgt_name=cdHRe_1
+  set SMEFT 12 1.0
+
+launch --rwgt_name=cdHRe_m1
+  set SMEFT 12 -1.0
+
+# operator ceWRe (index 13)
+launch --rwgt_name=ceWRe_1
+  set SMEFT 13 1.0
+
+launch --rwgt_name=ceWRe_m1
+  set SMEFT 13 -1.0
+
+# operator ceBRe (index 14)
+launch --rwgt_name=ceBRe_1
+  set SMEFT 14 1.0
+
+launch --rwgt_name=ceBRe_m1
+  set SMEFT 14 -1.0
+
+# operator cuGRe (index 15)
+launch --rwgt_name=cuGRe_1
+  set SMEFT 15 1.0
+
+launch --rwgt_name=cuGRe_m1
+  set SMEFT 15 -1.0
+
+# operator cuWRe (index 16)
+launch --rwgt_name=cuWRe_1
+  set SMEFT 16 1.0
+
+launch --rwgt_name=cuWRe_m1
+  set SMEFT 16 -1.0
+
+# operator cuBRe (index 17)
+launch --rwgt_name=cuBRe_1
+  set SMEFT 17 1.0
+
+launch --rwgt_name=cuBRe_m1
+  set SMEFT 17 -1.0
+
+# operator cdGRe (index 18)
+launch --rwgt_name=cdGRe_1
+  set SMEFT 18 1.0
+
+launch --rwgt_name=cdGRe_m1
+  set SMEFT 18 -1.0
+
+# operator cdWRe (index 19)
+launch --rwgt_name=cdWRe_1
+  set SMEFT 19 1.0
+
+launch --rwgt_name=cdWRe_m1
+  set SMEFT 19 -1.0
+
+# operator cdBRe (index 20)
+launch --rwgt_name=cdBRe_1
+  set SMEFT 20 1.0
+
+launch --rwgt_name=cdBRe_m1
+  set SMEFT 20 -1.0
+
+# operator cHl1 (index 21)
+launch --rwgt_name=cHl1_1
+  set SMEFT 21 1.0
+
+launch --rwgt_name=cHl1_m1
+  set SMEFT 21 -1.0
+
+# operator cHl3 (index 22)
+launch --rwgt_name=cHl3_1
+  set SMEFT 22 1.0
+
+launch --rwgt_name=cHl3_m1
+  set SMEFT 22 -1.0
+
+# operator cHe (index 23)
+launch --rwgt_name=cHe_1
+  set SMEFT 23 1.0
+
+launch --rwgt_name=cHe_m1
+  set SMEFT 23 -1.0
+
+# operator cHq1 (index 24)
+launch --rwgt_name=cHq1_1
+  set SMEFT 24 1.0
+
+launch --rwgt_name=cHq1_m1
+  set SMEFT 24 -1.0
+
+# operator cHq3 (index 25)
+launch --rwgt_name=cHq3_1
+  set SMEFT 25 1.0
+
+launch --rwgt_name=cHq3_m1
+  set SMEFT 25 -1.0
+
+# operator cHu (index 26)
+launch --rwgt_name=cHu_1
+  set SMEFT 26 1.0
+
+launch --rwgt_name=cHu_m1
+  set SMEFT 26 -1.0
+
+# operator cHd (index 27)
+launch --rwgt_name=cHd_1
+  set SMEFT 27 1.0
+
+launch --rwgt_name=cHd_m1
+  set SMEFT 27 -1.0
+
+# operator cHudRe (index 28)
+launch --rwgt_name=cHudRe_1
+  set SMEFT 28 1.0
+
+launch --rwgt_name=cHudRe_m1
+  set SMEFT 28 -1.0
+
+# operator cll (index 29)
+launch --rwgt_name=cll_1
+  set SMEFT 29 1.0
+
+launch --rwgt_name=cll_m1
+  set SMEFT 29 -1.0
+
+# operator cll1 (index 30)
+launch --rwgt_name=cll1_1
+  set SMEFT 30 1.0
+
+launch --rwgt_name=cll1_m1
+  set SMEFT 30 -1.0
+
+# operator cqq1 (index 31)
+launch --rwgt_name=cqq1_1
+  set SMEFT 31 1.0
+
+launch --rwgt_name=cqq1_m1
+  set SMEFT 31 -1.0
+
+# operator cqq11 (index 32)
+launch --rwgt_name=cqq11_1
+  set SMEFT 32 1.0
+
+launch --rwgt_name=cqq11_m1
+  set SMEFT 32 -1.0
+
+# operator cqq3 (index 33)
+launch --rwgt_name=cqq3_1
+  set SMEFT 33 1.0
+
+launch --rwgt_name=cqq3_m1
+  set SMEFT 33 -1.0
+
+# operator cqq31 (index 34)
+launch --rwgt_name=cqq31_1
+  set SMEFT 34 1.0
+
+launch --rwgt_name=cqq31_m1
+  set SMEFT 34 -1.0
+
+# operator clq1 (index 35)
+launch --rwgt_name=clq1_1
+  set SMEFT 35 1.0
+
+launch --rwgt_name=clq1_m1
+  set SMEFT 35 -1.0
+
+# operator clq3 (index 36)
+launch --rwgt_name=clq3_1
+  set SMEFT 36 1.0
+
+launch --rwgt_name=clq3_m1
+  set SMEFT 36 -1.0
+
+# operator cee (index 37)
+launch --rwgt_name=cee_1
+  set SMEFT 37 1.0
+
+launch --rwgt_name=cee_m1
+  set SMEFT 37 -1.0
+
+# operator cuu (index 38)
+launch --rwgt_name=cuu_1
+  set SMEFT 38 1.0
+
+launch --rwgt_name=cuu_m1
+  set SMEFT 38 -1.0
+
+# operator cuu1 (index 39)
+launch --rwgt_name=cuu1_1
+  set SMEFT 39 1.0
+
+launch --rwgt_name=cuu1_m1
+  set SMEFT 39 -1.0
+
+# operator cdd (index 40)
+launch --rwgt_name=cdd_1
+  set SMEFT 40 1.0
+
+launch --rwgt_name=cdd_m1
+  set SMEFT 40 -1.0
+
+# operator cdd1 (index 41)
+launch --rwgt_name=cdd1_1
+  set SMEFT 41 1.0
+
+launch --rwgt_name=cdd1_m1
+  set SMEFT 41 -1.0
+
+# operator ceu (index 42)
+launch --rwgt_name=ceu_1
+  set SMEFT 42 1.0
+
+launch --rwgt_name=ceu_m1
+  set SMEFT 42 -1.0
+
+# operator ced (index 43)
+launch --rwgt_name=ced_1
+  set SMEFT 43 1.0
+
+launch --rwgt_name=ced_m1
+  set SMEFT 43 -1.0
+
+# operator cud1 (index 44)
+launch --rwgt_name=cud1_1
+  set SMEFT 44 1.0
+
+launch --rwgt_name=cud1_m1
+  set SMEFT 44 -1.0
+
+# operator cud8 (index 45)
+launch --rwgt_name=cud8_1
+  set SMEFT 45 1.0
+
+launch --rwgt_name=cud8_m1
+  set SMEFT 45 -1.0
+
+# operator cle (index 46)
+launch --rwgt_name=cle_1
+  set SMEFT 46 1.0
+
+launch --rwgt_name=cle_m1
+  set SMEFT 46 -1.0
+
+# operator clu (index 47)
+launch --rwgt_name=clu_1
+  set SMEFT 47 1.0
+
+launch --rwgt_name=clu_m1
+  set SMEFT 47 -1.0
+
+# operator cld (index 48)
+launch --rwgt_name=cld_1
+  set SMEFT 48 1.0
+
+launch --rwgt_name=cld_m1
+  set SMEFT 48 -1.0
+
+# operator cqe (index 49)
+launch --rwgt_name=cqe_1
+  set SMEFT 49 1.0
+
+launch --rwgt_name=cqe_m1
+  set SMEFT 49 -1.0
+
+# operator cqu1 (index 50)
+launch --rwgt_name=cqu1_1
+  set SMEFT 50 1.0
+
+launch --rwgt_name=cqu1_m1
+  set SMEFT 50 -1.0
+
+# operator cqu8 (index 51)
+launch --rwgt_name=cqu8_1
+  set SMEFT 51 1.0
+
+launch --rwgt_name=cqu8_m1
+  set SMEFT 51 -1.0
+
+# operator cqd1 (index 52)
+launch --rwgt_name=cqd1_1
+  set SMEFT 52 1.0
+
+launch --rwgt_name=cqd1_m1
+  set SMEFT 52 -1.0
+
+# operator cqd8 (index 53)
+launch --rwgt_name=cqd8_1
+  set SMEFT 53 1.0
+
+launch --rwgt_name=cqd8_m1
+  set SMEFT 53 -1.0
+
+# operator cledqRe (index 54)
+launch --rwgt_name=cledqRe_1
+  set SMEFT 54 1.0
+
+launch --rwgt_name=cledqRe_m1
+  set SMEFT 54 -1.0
+
+# operator cquqd1Re (index 55)
+launch --rwgt_name=cquqd1Re_1
+  set SMEFT 55 1.0
+
+launch --rwgt_name=cquqd1Re_m1
+  set SMEFT 55 -1.0
+
+# operator cquqd11Re (index 56)
+launch --rwgt_name=cquqd11Re_1
+  set SMEFT 56 1.0
+
+launch --rwgt_name=cquqd11Re_m1
+  set SMEFT 56 -1.0
+
+# operator cquqd8Re (index 57)
+launch --rwgt_name=cquqd8Re_1
+  set SMEFT 57 1.0
+
+launch --rwgt_name=cquqd8Re_m1
+  set SMEFT 57 -1.0
+
+# operator cquqd81Re (index 58)
+launch --rwgt_name=cquqd81Re_1
+  set SMEFT 58 1.0
+
+launch --rwgt_name=cquqd81Re_m1
+  set SMEFT 58 -1.0
+
+# operator clequ1Re (index 59)
+launch --rwgt_name=clequ1Re_1
+  set SMEFT 59 1.0
+
+launch --rwgt_name=clequ1Re_m1
+  set SMEFT 59 -1.0
+
+# operator clequ3Re (index 60)
+launch --rwgt_name=clequ3Re_1
+  set SMEFT 60 1.0
+
+launch --rwgt_name=clequ3Re_m1
+  set SMEFT 60 -1.0
